@@ -16,7 +16,7 @@ namespace dz.edukos
          public override void IzvrsiTransakciju()
          {
              racun.Uplata(Iznos);
-             Console.WriteLine($"Izvršena uplata od {Iznos} HRK.");
+             Console.WriteLine($"Izvršena uplata od {Iznos} EUR.");
          }
     
 
